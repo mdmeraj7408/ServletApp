@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<title>CalculatorApp</title>
+<link rel="icon" type="image/png" href="/images/abc.png">
+<style type="text/css">
+
+.inp-cls
+{
+  color:highlight;
+   margin-top: 10px;
+    width: 300px;
+    margin-left: 20px;
+    height: 30px;
+    font-size: 20px;
+  
+}
+.inp-cls1
+{
+  margin-top: 5px;
+    width: 100px;
+    margin-left: 50px;
+    height: 30px;
+    font-size: 20px;
+    color:highlight;
+
+}
+form{
+      background-image: url("img/scal.jpg");
+}
+</style>
+</head>
+<body>
+	
+	<form action="Calculator" method="post"
+		style="width: 400px; height: 350px; margin-left: 45%; background-color: aquamarine; border: 2px solid rgb(25, 26, 25);">
+		<h1
+		style="text-align: center; font-size: 30px; font-family: 'Courier New', Courier, monospace;color:red;font:bold">Calculator</h1>
+		
+		<input class="inp-cls" type="text" name="num1"
+			placeholder="Enter Value First" style="margin-top: 10px;"><br>
+		<br> <input class="inp-cls" type="tex" name="num2"
+			placeholder="Enter Value Second"><br>
+		<br> <input class="inp-cls" type="text" name="op"
+			placeholder="Enter Value Opretion"><br>
+		<br> <input class="inp-cls1" type="submit" value="Calculate">
+		<input class="inp-cls1" type="reset" value="reset">
+	</form>
+</body>
+</html>
